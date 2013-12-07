@@ -1,5 +1,6 @@
 I have converted image file (avatar.jpg) to a base64 string using the tool (http://webcodertools.com/imagetobase64converter), generated the pixel words using Pixel-Mask, and assemble the new string into HTML image tag. Below guide shows us how to generate pixel words using the base64 string converted from an image, and show them in an HTML page. 
 
+Demo page source codes: https://raw.github.com/bml3i/pixel-mask/master/demo/demo_page.html
 
 ======== Step 1: convert the image to a base64 string ========
 
