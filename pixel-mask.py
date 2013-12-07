@@ -3,11 +3,6 @@ import logging
 import ConfigParser
 import letterpool
 
-# define functions
-def createIfPathNotExist(directory):
-  if not os.path.exists(directory):
-      os.makedirs(directory)
-
 # Setup logging module
 logging.basicConfig(filename='log/pixel-mask.log', format='%(levelname)s: %(message)s', level=logging.DEBUG)
 
